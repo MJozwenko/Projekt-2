@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projekt Firma</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <div class="navbar-container">
+      <div class="navbar container">
+        <div class="logo">moja firma</div>
+        <nav>
+          <ul class="main-nav">
+            <li class="main-nav-elem">
+              <a class="main-nav-link" href="#about_us">o nas</a>
+            </li>
+            <li class="main-nav-elem">
+              <a class="main-nav-link" href="#offer">oferta</a>
+            </li>
+            <li class="main-nav-elem">
+              <a class="main-nav-link contact" href="#">kontakt</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <header class="page-header">
+      <section class="header-content">
+        <h1 class="header-text1">
+          Nasza firma oferuje najwyższej jakości produkty.
+        </h1>
+        <h2 class="header-text2">Nie wierz nam na słowo - sprawdź</h2>
+        <button class="button-header" onclick="window.location.href='#offer';">
+          oferta
+        </button>
+      </section>
+    </header>
+    <main>
+      <section id="about_us">
+        <div class="container">
+          <h1 class="about_us-title">Nasi specjaliści</h1>
+          <div class="workers workers--row">
+            <div class="worker-img1"></div>
+            <div>
+              <p class="full-name">Imię Nazwisko [ dział ]</p>
+              <p class="worker_desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                vel massa et lacus egestas cursus a non magna. Fusce scelerisque
+                blandit nunc, id malesuada ex lobortis a. Integer felis nisi,
+                tempor elementum lorem in, varius pellentesque ligula. Duis
+                efficitur lacinia enim, non tincidunt libero ultrices in.
+              </p>
+            </div>
+          </div>
+          <div class="workers workers--row">
+            <div class="worker-img2"></div>
+            <div>
+              <p class="full-name">Imię Nazwisko [ dział ]</p>
+              <p class="worker_desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                vel massa et lacus egestas cursus a non magna. Fusce scelerisque
+                blandit nunc, id malesuada ex lobortis a. Integer felis nisi,
+                tempor elementum lorem in, varius pellentesque ligula. Duis
+                efficitur lacinia enim, non tincidunt libero ultrices in.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="offer">
+        <div class="container">
+          <h1 class="offer-title">Czym zajmuje się nasza firma?</h1>
+          <div class="offer-grid">
+            <div class="offer-grid-elem">
+              Usługa 1 (nowość)
+              <div class="dot"></div>
+            </div>
+            <div class="offer-grid-elem">Usługa 2</div>
+            <div class="offer-grid-elem">Usługa 3</div>
+            <div class="offer-grid-elem">Usługa 4</div>
+            <div class="offer-grid-elem">Usługa 5</div>
+            <div class="offer-grid-elem">Usługa 6</div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-bar">
+        <div class="footer-content container">
+          <div class="footer-txt">
+            Nazwa firmy - wszelkie prawa zastrzeżone, 2022
+          </div>
+          <ul class="social">
+            <li>
+              <a class="ico" href="#"
+                ><i class="fa-brands fa-square-facebook fa-2xl"></i
+              ></a>
+            </li>
+            <li>
+              <a class="ico" href="#"
+                ><i class="fa-brands fa-instagram fa-2xl"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

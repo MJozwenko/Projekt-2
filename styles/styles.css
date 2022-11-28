@@ -1,0 +1,331 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+h1 {
+  font: 700 36px/42px "Roboto";
+}
+
+.container {
+  padding-left: 14px;
+  padding-right: 14px;
+  max-width: 960px;
+  margin: auto;
+}
+
+/* NAVBAR */
+
+.navbar-container {
+  height: 50px;
+  margin: auto;
+  background: #4e4e4e;
+  display: flex;
+}
+
+.navbar {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav {
+  display: none;
+}
+
+.main-nav-elem {
+  margin-left: 46px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.main-nav-link {
+  text-decoration: none;
+  font: 400 18px/21px "Roboto";
+  display: flex;
+  align-items: center;
+  color: #f1f1f1;
+}
+
+.contact:hover {
+  cursor: not-allowed;
+}
+
+/* HEADER */
+
+.page-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: calc(100vh - 50px);
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.15)
+    ),
+    url(../assets/img/samsung-memory-Mfnv3l9ZDgE-unsplash.jpg);
+}
+
+.header-content {
+  width: 960px;
+  padding: 14px;
+  color: #ffffff;
+}
+
+.header-text1 {
+  max-width: 577px;
+  margin-bottom: 62px;
+}
+
+.header-text2 {
+  margin-bottom: 43px;
+}
+
+.button-header {
+  background-color: #c4c4c400;
+  border: 3px solid white;
+  color: white;
+  width: 164px;
+  height: 40.74px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+.button-header:hover {
+  background-color: white;
+  color: black;
+}
+
+/* ABOUT US */
+
+#about_us {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f1f1f1;
+  overflow: auto;
+}
+
+.about_us-title {
+  color: #152d41;
+}
+
+.workers {
+  padding-top: 54px;
+}
+
+.full-name {
+  padding-top: 42px;
+  margin-bottom: 20px;
+}
+
+.worker_desc {
+  font: 400 18px/21px "Roboto";
+  text-align: justify;
+}
+
+.worker-img1 {
+  width: 197px;
+  height: 197px;
+  margin: auto;
+  border-radius: 50%;
+  background: url(../assets/img/worker1.jpg);
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+}
+
+.worker-img2 {
+  width: 197px;
+  height: 197px;
+  margin: auto;
+  border-radius: 50%;
+  background: url(../assets/img/worker2.jpg);
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+}
+
+/* OFFER */
+
+#offer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #405d78;
+  scroll-behavior: smooth;
+}
+
+.offer-title {
+  color: #ffffff;
+}
+
+.offer-grid {
+  display: grid;
+  justify-content: center;
+  gap: 36px;
+  padding-top: 83px;
+}
+.offer-grid-elem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 338px;
+  width: 338px;
+  background-color: #f1f1f1;
+  font: 400 24px/28px "Roboto";
+  transition-duration: 0.5s;
+}
+.offer-grid-elem:hover {
+  transform: scale(1.05);
+}
+
+.dot {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  margin-right: 338px;
+  margin-bottom: 338px;
+  border-radius: 50%;
+  background: #e07a64;
+}
+
+/* FOOTER */
+
+.footer-bar {
+  padding-top: 38px;
+  padding-bottom: 38px;
+  background-color: #4e4e4e;
+}
+
+.footer-txt {
+  color: #ffffff;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.social {
+  padding-top: 15px;
+  display: flex;
+}
+
+.ico {
+  padding: 9px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 490px) {
+  .main-nav {
+    list-style-type: none;
+    display: flex;
+  }
+  .offer-grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 198px 198px;
+    gap: 63px;
+    padding-top: 83px;
+  }
+  .offer-grid-elem {
+    height: 198px;
+    width: 198px;
+  }
+  .dot {
+    width: 22px;
+    height: 22px;
+    margin-right: 198px;
+    margin-bottom: 194px;
+  }
+  .footer-bar {
+    height: 71px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .footer-content {
+    justify-content: space-between;
+  }
+  .social {
+    padding-top: 0px;
+  }
+
+  .ico {
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .workers {
+    display: flex;
+    align-items: center;
+  }
+  .worker_desc {
+    font: 400 18px/21px "Roboto";
+    text-align: unset;
+  }
+
+  .workers--row:nth-of-type(even) {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+
+  .worker-img1 {
+    margin-right: 60px;
+  }
+
+  .worker-img2 {
+    margin-left: 60px;
+  }
+  .worker_desc {
+    font: 400 18px/21px "Roboto";
+  }
+
+  .full-name {
+    padding-top: 0px;
+  }
+
+  .offer-grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 198px 198px 198px;
+    gap: 63px;
+    padding-top: 83px;
+  }
+  .offer-grid-elem {
+    height: 198px;
+    width: 198px;
+  }
+
+  .dot {
+    width: 22px;
+    height: 22px;
+    margin-right: 198px;
+    margin-bottom: 194px;
+  }
+}
