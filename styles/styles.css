@@ -85,6 +85,7 @@ h2 {
 }
 
 .header-content {
+  display: block;
   width: 960px;
   padding: 14px;
   color: #ffffff;
@@ -96,20 +97,18 @@ h2 {
 }
 
 .header-text2 {
-  margin-bottom: 43px;
+  margin-bottom: 50px;
 }
 
 .button-header {
   background-color: #c4c4c400;
   border: 3px solid white;
   color: white;
-  width: 164px;
-  height: 41px;
+  padding: 7px 55px;
   text-align: center;
   text-decoration: none;
   font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
   transition-duration: 1s;
   cursor: pointer;
 }
