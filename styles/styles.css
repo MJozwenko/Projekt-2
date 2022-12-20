@@ -62,10 +62,6 @@ h2 {
   color: #f1f1f1;
 }
 
-.contact:hover {
-  cursor: not-allowed;
-}
-
 /* HEADER */
 
 .page-header {
@@ -111,11 +107,6 @@ h2 {
   font-size: 18px;
   transition-duration: 1s;
   cursor: pointer;
-}
-
-.button-header:hover {
-  background-color: white;
-  color: black;
 }
 
 /* ABOUT US */
@@ -198,9 +189,6 @@ h2 {
   font-size: 24px;
   line-height: 28px;
   transition-duration: 0.5s;
-}
-.offer-grid-elem:hover {
-  transform: scale(1.05);
 }
 
 .dot {
@@ -327,5 +315,18 @@ h2 {
     height: 22px;
     margin-right: 198px;
     margin-bottom: 194px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contact:hover {
+    cursor: not-allowed;
+  }
+  .button-header:hover {
+    background-color: white;
+    color: black;
+  }
+  .offer-grid-elem:hover {
+    transform: scale(1.05);
   }
 }
